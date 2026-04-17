@@ -1,4 +1,4 @@
-#  Dag with XcomDag's Task cross communication with Xcom
+#  Dag's Task cross communication with Xcom
 <img src="image.png">
 
 👤 Author
