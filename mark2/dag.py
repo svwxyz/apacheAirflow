@@ -24,7 +24,6 @@ def myDag():
     
     @task.python
     def stageThree(**kwargs):
-        
         print(f'Good Morning!!,{kwargs['ti'].xcom_pull(task_ids='stageTwo',key='transformed')}')
 
     
