@@ -19,7 +19,6 @@ def myDag():
 
     @task.python
     def transform(data):
-
         fullName=data['first'].upper()+' '+data['second'].upper()
 
         return fullName
