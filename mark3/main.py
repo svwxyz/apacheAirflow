@@ -1,8 +1,7 @@
 from airflow.sdk import dag,task 
 
 @dag(
-        dag_id='Xcom2'
-)
+        dag_id='Xcom2')
 def myDag():
 
     @task.python
